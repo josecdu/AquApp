@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detalle_lectura">
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/eciclo"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ciclo         :"
+                android:layout_marginLeft="25dp"
+                android:textAlignment="inherit"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tciclo"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="-"
+                android:textSize="20dp"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/eusuario"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Usuario     :"
+                android:layout_marginLeft="25dp"
+                android:textAlignment="inherit"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tUsuario"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="-"
+                android:textSize="20dp"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/emedidor"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Medidor    :"
+                android:layout_marginLeft="25dp"
+                android:textAlignment="inherit"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tmedidor"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="-"
+                android:textSize="20dp"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/efecha"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Fecha        :"
+                android:layout_marginLeft="25dp"
+                android:textAlignment="inherit"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tFechaAct"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="-"
+                android:textSize="20dp"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/electura"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Lectura     :"
+                android:layout_marginLeft="25dp"
+                android:textAlignment="inherit"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tLecAct"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="-"
+                android:textSize="20dp"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/econsumo"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Consumo :"
+                android:layout_marginLeft="25dp"
+                android:textAlignment="inherit"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tConsumo"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="-"
+                android:textSize="20dp"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/iFoto"
+            android:layout_width="379dp"
+            android:layout_height="315dp"
+             />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
